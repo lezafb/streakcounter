@@ -1,44 +1,0 @@
-<!DOCTYPE html>
-<html lang="fa">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐔 my daily fucking streak </title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-    <div class="container">
-        <h1> 🐔???WHAT DID YOU LEARN TODAY HUH🐔</h1>
-        
-        <div class="streak-box">
-            <p>📚 🔥 MY STREAK </p>
-            <h2 id="streak-count">0</h2>
-        </div>
-
-        <div class="study-input">
-            <textarea id="study-text" placeholder="TYPE IT HERE..."></textarea>
-            
-            <!-- آپلود عکس -->
-            <input type="file" id="study-image" accept="image/*" onchange="previewFile()">
-            
-            <!-- آپلود ویس -->
-            <input type="file" id="study-voice" accept="audio/*" onchange="previewVoice()">
-            
-            <!-- دکمه ثبت یادداشت و شروع آزمون -->
-            <button onclick="saveStudy()">SUBMIT THA SHI </button>
-        </div>
-
-        <!-- پیش‌نمایش فایل‌ها -->
-        <div id="file-preview"></div>
-
-        <div class="history">
-            <h3>📅 HISTORY OF LEARNING:</h3>
-            <ul id="streak-history"></ul>
-        </div>
-    </div>
-
-    <script src="../js/script.js"></script>
-</body>
-</html>
-<div id="image-preview"></div>
-
