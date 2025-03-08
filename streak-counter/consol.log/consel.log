@@ -1,0 +1,2 @@
+console.log('Streak Count:', streakCount);
+console.log('Last Streak Date:', localStorage.getItem('lastStreakDate'));
